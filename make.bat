@@ -1,19 +1,19 @@
 @echo off
-if ["%*"]==["compile"] GOTO COMPILAR
-if ["%*"]==["run"] GOTO CORRER
-if ["%*"]==["runarg"] GOTO CORRERARG
+if ["%*"]==["COMPILE"] GOTO COMPILAR
+if ["%*"]==["RUN"] GOTO CORRER
+if ["%*"]==["RUNARG"] GOTO CORRERARG
 GOTO FIN
 
 :COMPILAR
-gcc main.c -o ./build/main.exe
+tcc MAIN.C
 GOTO FIN
 
 :CORRER
-build\main.exe
+MAIN.EXE
 GOTO FIN
 
 :CORRERARG
-build\main.exe Persona.txt
+MAIN.EXE PERSONA.TXT
 GOTO FIN
 
 :FIN

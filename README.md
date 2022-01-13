@@ -1,7 +1,7 @@
 # Libreria personalizada para C
 
-Codigo de Ejemplo usado esta libreria:
-## main: 
+
+## Codigo de Ejemplo usado esta libreria:
 ```c
 #include "library.h" 
 

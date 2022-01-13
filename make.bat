@@ -5,7 +5,7 @@ if ["%*"]==["RUNARG"] GOTO CORRERARG
 GOTO FIN
 
 :COMPILAR
-tcc MAIN.C
+tcc main.c
 GOTO FIN
 
 :CORRER

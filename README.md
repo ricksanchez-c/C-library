@@ -26,7 +26,7 @@ int main(int argc, char *argv[]){
          scan(edad, 10); 
          Estado = ctoi(edad, &yo.Edad); 
       }while(Estado==Error); 
-      Estado = Guardar_Persona("Persona.txt", yo); 
+      Estado = Guardar_Persona("PERSONA.TXT", yo); 
       if(Estado==Error){ 
          return 0; 
       } 

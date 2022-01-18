@@ -1,5 +1,5 @@
-# Libreria personalizada para C
-
+TCC MAIN.C
+MAIN.EXE TEXTO.TXT
 
 ```c
 #include "library.h" 

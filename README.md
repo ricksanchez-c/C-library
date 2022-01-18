@@ -1,5 +1,7 @@
+```batch
 TCC MAIN.C
 MAIN.EXE TEXTO.TXT
+```
 
 ```c
 #include "library.h" 

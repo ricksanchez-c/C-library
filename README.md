@@ -4,7 +4,7 @@ MAIN.EXE TEXTO.TXT
 ```
 
 ```c
-#include "library.h" 
+#include "LIBRARY.H" 
  
 #define Error -1 
 #define Ok 1 
